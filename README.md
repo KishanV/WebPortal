@@ -18,6 +18,6 @@ it is written as single page page application and component based architecture p
 </br>
 <img src="https://raw.githubusercontent.com/KishanV/WebPortal/master/screenshot/home.PNG" width="50%" />
 <img src="https://raw.githubusercontent.com/KishanV/WebPortal/master/screenshot/frame.PNG" width="50%" />
-<img src="https://raw.githubusercontent.com/KishanV/WebPortal/master/screenshot/list.PNG" width="50%" />
+<img src="https://raw.githubusercontent.com/KishanV/WebPortal/master/screenshot/list.PNG" width="197px" height="189px" />
 <img src="https://raw.githubusercontent.com/KishanV/WebPortal/master/screenshot/menu.PNG" width="50%" />
 <img src="https://raw.githubusercontent.com/KishanV/WebPortal/master/screenshot/search.PNG" width="50%" />
