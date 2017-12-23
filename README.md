@@ -11,7 +11,7 @@ This javascript is fully written by me during my jobs. and this project is highl
 ### Build &  Configuration (Src Code). 
 ◈ [NPM & Package.json](https://github.com/KishanV/WebPortal/blob/master/package.json)</br>
 ◈ [JS Libraries DIR](https://github.com/KishanV/WebPortal/tree/master/plugins)</br>
-◈ [Webpack](https://github.com/KishanV/WebPortal/blob/master/webpack.config.js) ()</br>
+◈ [Webpack](https://github.com/KishanV/WebPortal/blob/master/webpack.config.js) (css-loader, sass-loader,)</br>
 
 ### Architecture & View (Src Code).
 ◈ [Login](https://github.com/KishanV/Android-Music-Player/blob/master/app/src/main/java/Views/ContentHome.java)</br>
@@ -23,9 +23,8 @@ This javascript is fully written by me during my jobs. and this project is highl
 ◈ [Webserver & Webscocket server](https://github.com/KishanV/WebPortal/blob/master/web.server.js)</br>
 ◈ [REST with JSON](https://github.com/KishanV/WebPortal/blob/master/web/apis.js)</br>
 
-### Wbscocket & Custom live reload (Src Code).
-◈ [Webserver & Webscocket server](https://github.com/KishanV/WebPortal/blob/master/web.server.js)</br>
-◈ [REST with JSON](https://github.com/KishanV/WebPortal/blob/master/web/apis.js)</br>
+### Custom live reload (Src Code).
+◈ [Webserver & Watcher](https://github.com/KishanV/WebPortal/blob/master/plugins/watcher.js)</br>
 
 ### Screenshots & Looks (Images).
 </br>
