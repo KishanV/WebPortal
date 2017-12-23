@@ -2,6 +2,7 @@ const ExtractTextPlugin = require("extract-text-webpack-plugin");
 const extractSass = new ExtractTextPlugin({ filename: "dist/app.dist.css" });
 var fs = require('fs');
 
+var srcJS2 = [];
 var srcJS = [
     './env/env.js',
     './plugins/ByteBuffer.js',
@@ -40,9 +41,13 @@ function getTree(filepath) {
     } else {
         info.type = "file";
         var js = filepath.match(/.*\.js$/);
+        var jsx = filepath.match(/.*\.jsx$/);
         var scss = filepath.match(/.*\.scss$/);
         if(js != null){
             srcJS.push('.\\'+js);
+        }
+        if(jsx != null){
+            srcJS.push('.\\'+jsx);
         }
         if(scss != null){
             srcSCSS.push('.\\'+scss);
@@ -53,33 +58,54 @@ function getTree(filepath) {
 
 
 getTree('./src');
-console.log(srcJS);
-console.log(srcSCSS);
-
+var BUILD_DIR = path.resolve(__dirname, 'dist');
 srcJS.push('./env/init.js');
 module.exports = [
+    /*{
+        entry: {
+            app: srcJS
+        },
+        devtool: 'source-map',
+        output: {
+            filename: 'dist/app.src.js'
+        },
+        module: {},
+        plugins: []
+    },*/
     {
         entry: {
             app: srcJS
         },
         devtool: 'source-map',
         output: {
-            filename: "dist/app.dist.js"
+            filename: 'dist/app.src.js'
         },
-        module: {},
+        resolveLoader: {
+            moduleExtensions: ['-loader']
+        },
+        module: {
+            loaders: [{
+                test: /\.jsx$/,
+                loader: 'babel',
+                query: {
+                    presets: ['react', 'es2015']
+                }
+            },{
+                test: /\.js$/
+            }]
+        },
         plugins: []
     },
     {
         entry: srcSCSS,
         output: {
-            filename: "dist/app.dist.css"
+            filename: "dist/distapp.dist.css"
         },
         devtool: 'source-map',
         module: {
             rules: [
                 {
                     test: /\.scss$/,
-                    //include: path.join(__dirname, 'app/MindMap/Web'),
                     use: extractSass.extract({
                         use: [{
                             loader: "css-loader"

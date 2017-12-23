@@ -1,4 +1,4 @@
-var frame = require('../mode/frame.js')
+var frame = require('../mode/frame.js');
 exports.init = function(){
 	var obj = frame.load();
 	var homeBody = {
