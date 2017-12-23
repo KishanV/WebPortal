@@ -7,13 +7,8 @@
     "build": "webpack",
     "run": "node web.server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://kishan-devani@bitbucket.org/kishan-devani/logic-studio.git"
-  },
   "author": "",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/kishan-devani/logic-studio#readme",
   "devDependencies": {
     "css-loader": "^0.28.7",
     "express": "^4.16.2",

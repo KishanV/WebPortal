@@ -1,29 +1,28 @@
-# README #
+### Android-Music-Player
 
-This README would normally document whatever steps are necessary to get your application up and running.
+Music Player with bass,treble,softness tuner Equalizer.
+This music player in etierly writtern by me and also its UI/UX desinged by me.
 
-### What is this repository for? ###
+◈ Support all the most popular music file formats.</br>
+◈ Browse and play your music by albums, artists, songs, playlists, folders.</br>
+◈ Support genre list.</br>
+◈ Easy search ever.</br>
+◈ Saprate Bass and treble.</br>
+◈ Unbelievable audio Softness controller.
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+### App Architecture (Src Code).
+◈ [AndroidManifest](https://github.com/KishanV/Android-Music-Player/blob/master/app/src/main/AndroidManifest.xml)</br>
+◈ [Main Activity](https://github.com/KishanV/Android-Music-Player/blob/master/app/src/main/java/com/linedeer/player/Ui.java)</br>
+◈ [Home View](https://github.com/KishanV/Android-Music-Player/blob/master/app/src/main/java/Views/ContentHome.java)</br>
+◈ [Service](https://github.com/KishanV/Android-Music-Player/blob/master/app/src/main/java/com/linedeer/player/musicPlayer.java)</br>
+◈ [Playback Handler](https://github.com/KishanV/Android-Music-Player/blob/master/app/src/main/java/com/player/playlistHandler.java)</br>
+◈ [Eq Database](https://github.com/KishanV/Android-Music-Player/blob/master/app/src/main/java/com/player/playerDb.java)
 
-### How do I get set up? ###
-
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+### Go to Playstore : [Linedeer Music Player Pro](https://play.google.com/store/apps/details?id=com.linedeer.music.handler)
+</br>
+</br>
+<img src="https://raw.githubusercontent.com/KishanV/Android-Music-Player/master/imgs/renderDemo1.png" width="50%" />
+<img src="https://raw.githubusercontent.com/KishanV/Android-Music-Player/master/imgs/renderDemo4.png" width="50%" />
+<img src="https://raw.githubusercontent.com/KishanV/Android-Music-Player/master/imgs/renderDemo2_2.png" width="50%" />
+<img src="https://raw.githubusercontent.com/KishanV/Android-Music-Player/master/imgs/renderDemo5_5.png" width="50%" />
+<img src="https://raw.githubusercontent.com/KishanV/Android-Music-Player/master/imgs/renderDemo8_8.png" width="50%" />
