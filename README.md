@@ -4,6 +4,7 @@ Web Pages written in javascript, JQuery, React JS, CSS, Html5 and Node JS for im
 it is written as single page page application and component based architecture please read below details and click on links for more. 
 
 ### My Custom Frameworks & Highly reused functions. (Src Code).
+This javascript is fully written by me during my jobs. and this project is highly depend on these both files.
 ◈ [JQuery based function](https://github.com/KishanV/WebPortal/blob/master/apis/api.js)</br>
 ◈ [QuickTags](https://github.com/KishanV/QuickTags)</br>
 
