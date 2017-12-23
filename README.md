@@ -16,8 +16,8 @@ it is written as single page page application and component based architecture p
 ### Go to Playstore : [Linedeer Music Player Pro](https://play.google.com/store/apps/details?id=com.linedeer.music.handler)
 </br>
 </br>
-<img src="https://raw.githubusercontent.com/KishanV/WebPortal/master/screenshot/home.png" style="max-width:100%;border: 2px solid #92d1ff;border-radius: 17px;box-shadow: 0 10px 30px 0px rgba(0,0,0,0.1);" />
-<img src="https://raw.githubusercontent.com/KishanV/WebPortal/master/screenshot/frame.png" style="max-width:100%;border: 2px solid #92d1ff;border-radius: 17px;box-shadow: 0 10px 30px 0px rgba(0,0,0,0.1);" />
-<img src="https://raw.githubusercontent.com/KishanV/WebPortal/master/screenshot/list.png" style="max-width:100%;border: 2px solid #92d1ff;border-radius: 17px;box-shadow: 0 10px 30px 0px rgba(0,0,0,0.1);" />
-<img src="https://raw.githubusercontent.com/KishanV/WebPortal/master/screenshot/menu.png"  style="max-width:100%;border: 2px solid #92d1ff;border-radius: 17px;box-shadow: 0 10px 30px 0px rgba(0,0,0,0.1);" />
-<img src="https://raw.githubusercontent.com/KishanV/WebPortal/master/screenshot/search.png"  style="max-width:100%;border: 2px solid #92d1ff;border-radius: 17px;box-shadow: 0 10px 30px 0px rgba(0,0,0,0.1);" />
+<img src="https://raw.githubusercontent.com/KishanV/WebPortal/master/screenshot/home.png" class="html" style="max-width:100%;max-width:100%;border: 1px solid #92d1ff;box-shadow: 0 10px 30px 0px rgba(0,0,0,0.1);" />
+<img src="https://raw.githubusercontent.com/KishanV/WebPortal/master/screenshot/frame.png" style="max-width:100%;max-width:100%;border: 1px solid #92d1ff;box-shadow: 0 10px 30px 0px rgba(0,0,0,0.1);" />
+<img src="https://raw.githubusercontent.com/KishanV/WebPortal/master/screenshot/list.png" style="max-width:100%;max-width:100%;border: 1px solid #92d1ff;box-shadow: 0 10px 30px 0px rgba(0,0,0,0.1);" />
+<img src="https://raw.githubusercontent.com/KishanV/WebPortal/master/screenshot/menu.png"  style="max-width:100%;max-width:100%;border: 1px solid #92d1ff;box-shadow: 0 10px 30px 0px rgba(0,0,0,0.1);" />
+<img src="https://raw.githubusercontent.com/KishanV/WebPortal/master/screenshot/search.png"  style="max-width:100%;max-width:100%;border: 1px solid #92d1ff;box-shadow: 0 10px 30px 0px rgba(0,0,0,0.1);" />
