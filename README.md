@@ -1,4 +1,4 @@
-### Webportal
+### Webportal (Client side Demo only)
 
 Web Pages written in javascript, JQuery, React JS, CSS, Html5 and Node JS for implementation of rest api.
 it is written as single page page application and component based architecture please read below details and click on links for more. 
