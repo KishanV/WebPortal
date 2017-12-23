@@ -8,18 +8,22 @@ This javascript is fully written by me during my jobs. and this project is highl
 ◈ [JQuery based function](https://github.com/KishanV/WebPortal/blob/master/apis/api.js)</br>
 ◈ [QuickTags](https://github.com/KishanV/QuickTags)</br>
 
-### Build &  Configuration(Src Code). 
+### Build &  Configuration (Src Code). 
 ◈ [NPM & Package.json](https://github.com/KishanV/WebPortal/blob/master/package.json)</br>
 ◈ [JS Libraries DIR](https://github.com/KishanV/WebPortal/tree/master/plugins)</br>
-◈ [Webpack](https://github.com/KishanV/WebPortal/tree/master/plugins)</br>
+◈ [Webpack](https://github.com/KishanV/WebPortal/blob/master/webpack.config.js) ()</br>
 
-### Architecture & View(Src Code).
+### Architecture & View (Src Code).
 ◈ [Login](https://github.com/KishanV/Android-Music-Player/blob/master/app/src/main/java/Views/ContentHome.java)</br>
 ◈ [Home](https://github.com/KishanV/WebPortal/blob/master/src/home/home.js)</br>
 ◈ [SCSS](https://github.com/KishanV/WebPortal/blob/master/src/home/home.scss)</br>
 ◈ [Settings Modules DIR](https://github.com/KishanV/WebPortal/tree/master/src/settings)</br>
 
 ### Webserver & REST (Src Code).
+◈ [Webserver & Webscocket server](https://github.com/KishanV/WebPortal/blob/master/web.server.js)</br>
+◈ [REST with JSON](https://github.com/KishanV/WebPortal/blob/master/web/apis.js)</br>
+
+### Wbscocket & Custom live reload (Src Code).
 ◈ [Webserver & Webscocket server](https://github.com/KishanV/WebPortal/blob/master/web.server.js)</br>
 ◈ [REST with JSON](https://github.com/KishanV/WebPortal/blob/master/web/apis.js)</br>
 
