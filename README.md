@@ -1,7 +1,7 @@
-### Android-Music-Player
+### Webportal
 
-Music Player with bass,treble,softness tuner Equalizer.
-This music player in etierly writtern by me and also its UI/UX desinged by me.
+Web Pages written in javascript, JQuery, React JS, CSS, Html5 and Node JS for implementation of rest api.
+it is written as single page page application and component based architecture please read below details and click on links for more. 
 
 ◈ Support all the most popular music file formats.</br>
 ◈ Browse and play your music by albums, artists, songs, playlists, folders.</br>
