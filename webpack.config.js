@@ -1,6 +1,7 @@
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
 const extractSass = new ExtractTextPlugin({ filename: "dist/app.dist.css" });
 var fs = require('fs');
+
 var srcJS = [
     './env/env.js',
     './plugins/ByteBuffer.js',

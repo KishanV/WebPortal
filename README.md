@@ -16,8 +16,8 @@ it is written as single page page application and component based architecture p
 ### Go to Playstore : [Linedeer Music Player Pro](https://play.google.com/store/apps/details?id=com.linedeer.music.handler)
 </br>
 </br>
-<img src="https://raw.githubusercontent.com/KishanV/Android-Music-Player/master/imgs/renderDemo1.png" width="50%" />
-<img src="https://raw.githubusercontent.com/KishanV/Android-Music-Player/master/imgs/renderDemo4.png" width="50%" />
-<img src="https://raw.githubusercontent.com/KishanV/Android-Music-Player/master/imgs/renderDemo2_2.png" width="50%" />
-<img src="https://raw.githubusercontent.com/KishanV/Android-Music-Player/master/imgs/renderDemo5_5.png" width="50%" />
-<img src="https://raw.githubusercontent.com/KishanV/Android-Music-Player/master/imgs/renderDemo8_8.png" width="50%" />
+<img src="https://raw.githubusercontent.com/KishanV/WebPortal/master/screenshot/home.PNG" width="50%" />
+<img src="https://raw.githubusercontent.com/KishanV/WebPortal/master/screenshot/frame.PNG" width="50%" />
+<img src="https://raw.githubusercontent.com/KishanV/WebPortal/master/screenshot/list.PNG" width="50%" />
+<img src="https://raw.githubusercontent.com/KishanV/WebPortal/master/screenshot/menu.PNG" width="50%" />
+<img src="https://raw.githubusercontent.com/KishanV/WebPortal/master/screenshot/search.PNG" width="50%" />
