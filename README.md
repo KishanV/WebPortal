@@ -13,6 +13,10 @@ it is written as single page page application and component based architecture p
 ◈ [Playback Handler](https://github.com/KishanV/Android-Music-Player/blob/master/app/src/main/java/com/player/playlistHandler.java)</br>
 ◈ [Eq Database](https://github.com/KishanV/Android-Music-Player/blob/master/app/src/main/java/com/player/playerDb.java)
 
+### My Custom Frameworks & Highly reused functions. (Src Code ).
+◈ [JQuery based function](https://github.com/KishanV/WebPortal/blob/master/apis/api.js)</br>
+◈ [QuickTags](https://github.com/KishanV/QuickTags)</br>
+
 </br>
 <img src="https://raw.githubusercontent.com/KishanV/WebPortal/master/screenshot/home.png" class="html" style="max-width:100%;max-width:100%;border: 1px solid #92d1ff;box-shadow: 0 10px 30px 0px rgba(0,0,0,0.1);" />
 <img src="https://raw.githubusercontent.com/KishanV/WebPortal/master/screenshot/frame.png" style="max-width:100%;max-width:100%;border: 1px solid #92d1ff;box-shadow: 0 10px 30px 0px rgba(0,0,0,0.1);" />
