@@ -1,0 +1,457 @@
+.home{
+  background-color: #EFF3F6;
+  width: 100%;
+  height: auto;
+  overflow: auto;
+  color: #000;
+  >.top{
+    width: 100%;
+    height: 90px;
+    background-color: #ffff;
+    position: relative;
+    border-bottom: 1px solid #A8C6DB;
+    box-shadow: 0px 0px 30px 0 rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    >.logo{
+      //background: #149BFF;
+      border-radius: 8px;
+      height: 44px;
+      width: 90px;
+      top: 23px;
+      left: 40px;
+      position: absolute;
+      background-image: url(/src/imgs/logo.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 100%;
+    }
+    >.right{
+      position: relative;
+      width: auto;
+      height: 43px;
+      float: right;
+      margin-top: 23px;
+      margin-right: 23px;
+      >.item{
+        border-radius: 8px;
+        height: 43px;
+        width: 43px;
+        position: relative;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative;
+        float: right;
+        margin-left: 5px;
+        margin-right: 5px;
+        &:last-child{
+          margin-right: 0px;
+        }
+        &.help{
+          background-image: url("/src/imgs/help.png");
+          cursor: pointer;
+        }
+        &.ball{
+          background-image: url("/src/imgs/ball.png");
+          cursor: pointer;
+          >.number{
+            width: 24px;
+            height: 24px;
+            margin: auto;
+            background-color: #149BFF;
+            border-radius: 26px;
+            line-height: 26px;
+            margin-top: -10px;
+            text-align: center;
+            color: #fff;
+          }
+        }
+        &.user{
+          cursor: pointer;
+          height: 50px;
+          width: 50px;
+          border-radius: 50px;
+          border: 2px solid #149BFF;
+          box-sizing: border-box;
+          margin-top: -4px;
+          margin-right: 5px;
+          margin-left: 5px;
+          cursor: pointer;
+          >.arrow{
+            background-image: url(/src/imgs/downArrow.png);
+            width: 19px;
+            height: 19px;
+            margin: auto;
+            margin-top: 38px;
+          }
+          &.demo{
+            background-image: url("/src/imgs/userPhoto.png");
+          }
+        }
+        &.name{
+          width: auto;
+          color: #000;
+          line-height: 43px;
+          padding-left: 10px;
+          padding-right: 10px;
+          font-size: 16px;
+        }
+        &.info{
+          background-color: #28C73D;
+          width: auto;
+          height: 44px;
+          margin-top: -1px;
+          border-radius: 14px;
+          padding-right: 44px;
+          >.box{
+            width: auto;
+            height: 40px;
+            margin-top: 2px;
+            margin-left: 2px;
+            background-color: #fff;
+            border-radius: 12px;
+            line-height: 40px;
+            color: #000;
+            padding-left: 10px;
+            padding-right: 10px;
+          }
+          >.icon{
+            height: 44px;
+            width: 44px;
+            position: absolute;
+            float: left;
+            right: 0;
+            top:0;
+            background-image: url("/src/imgs/perImg.png");
+            background-repeat: no-repeat;
+            background-position: center;
+          }
+        }
+      }
+    }
+  }
+  >.body{
+    width: 100%;
+    height: auto;
+    position: relative;
+    float: right;
+    min-height: 400px;
+    >.holder{
+      background-color: transparent;
+      width: 880px;
+      height: auto;
+      margin: auto;
+      padding-top: 40px;
+      padding-bottom: 100px;
+      position: relative;
+      float: left;
+      transform: translateX(-50%);
+      margin-left: calc(50%);
+      >.item{
+        width: 160px;
+        height: 220px;
+        margin: 30px;
+        margin-bottom: 0px;
+        position: relative;
+        float: left;
+        z-index: 1;
+        &:hover{
+          z-index: 2;
+          >.lable{
+            color: #fff;
+          }
+        }
+        >.lable{
+          transition: all 150ms;
+          position: absolute;
+          top: 176px;
+          width: 100%;
+          color: #000;
+          font-size: 16px;
+          white-space: pre;
+          text-align: center;
+          line-height: 22px;
+        }
+        >.box{
+          width: 160px;
+          height: 160px;
+          background-color: #fff;
+          box-sizing: border-box;
+          border: 1px solid #ccc;
+          border-radius: 14px;
+          position: relative;
+          cursor: pointer;
+          &:hover{
+            overflow: visible;
+            >.back{
+              width: calc(100% + 10px);
+              height: 220px;
+              left: -5px;
+              top: -5px;
+              box-shadow: 0px 0px 60px 0 rgba(0,0,0,0.2);
+            }
+          }
+          >.back{
+            transition: top 150ms,left 150ms,width 150ms,height 150ms,box-shadow 500ms;
+            width: calc(100% - 4px);
+            height: calc(100% - 4px);
+            background-color: #149BFF;
+            border-radius: 16px;
+            position: absolute;
+            top: 2px;
+            left: 2px;
+            box-shadow: 0px 0px 0px 0 rgba(0,0,0,0.2);
+          }
+          >.img{
+            transition: all 150ms;
+            width: calc(100% - 0px);
+            height: calc(100% - 0px);
+            background-color: #fff;
+            border-radius: 13px;
+            position: absolute;
+            background-size: 100%;
+          }
+        }
+        &.myAccount{
+          >.box {
+            >.img{
+              background-image: url("/src/imgs/icons/myAccount.png");
+            }
+          }
+        }
+        &.parentalControl{
+          >.box {
+            > .img {
+              background-image: url("/src/imgs/icons/parantalControl.png");
+            }
+          }
+        }
+        &.cloudStorage{
+          >.box {
+            > .img {
+              background-image: url("/src/imgs/icons/cloudStorage.png");
+            }
+          }
+        }
+        &.shopping{
+          >.box {
+            > .img {
+              background-image: url("/src/imgs/icons/shopping.png");
+            }
+          }
+        }
+        &.statistics{
+          >.box {
+            > .img {
+              background-image: url("/src/imgs/icons/statistics.png");
+            }
+          }
+        }
+        &.services{
+          >.box {
+            > .img {
+              background-image: url("/src/imgs/icons/services.png");
+            }
+          }
+        }
+        &.advancedNetwork{
+          >.box {
+            > .img {
+              background-image: url("/src/imgs/icons/advancedNetwork.png");
+            }
+          }
+        }
+        &.wifiSetting{
+          >.box {
+            > .img {
+              background-image: url("/src/imgs/icons/wifiSetting.png");
+            }
+          }
+        }
+      }
+    }
+  }
+  >.bottom{
+    width: 100%;
+    position: relative;
+    height: 315px;
+    background-color: #F5F5F5;
+    float: left;
+    border-top:1px solid #CACACA;
+    >.body{
+      width: 1027px;
+      height: auto;
+      margin: auto;
+      >.part{
+        width: 196px;
+        height: 235px;
+        position: relative;
+        float: left;
+        margin-top: 30px;
+        >.title{
+          width: 100%;
+          height: 36px;
+          position: relative;
+          float: left;
+          font-size: 20px;
+          line-height: 36px;
+        }
+        >.item{
+          width: 100%;
+          height: 30px;
+          position: relative;
+          float: left;
+          font-size: 16px;
+          line-height: 30px;
+        }
+        >.text{
+          width: 100%;
+          height: 30px;
+          position: relative;
+          float: left;
+          font-size: 14px;
+          line-height: 18px;
+        }
+        >.textinput{
+          width: 254px;
+          height: 42px;
+          position: relative;
+          float: left;
+          font-size: 14px;
+          background: #fff;
+          border: 2px solid #ccc;
+          box-sizing: border-box;
+          border-radius: 34px;
+          margin-top: 10px;
+          margin-bottom: 10px;
+          margin-left: -10px;
+          line-height: 38px;
+          text-indent: 15px;
+          color: #999;
+          >.btn{
+            background-color: #4FC41E;
+            height: 42px;
+            width: 42px;
+            position: absolute;
+            right: -2px;
+            top: -2px;
+            border-radius: 42px;
+            border: 2px solid #424242;
+            box-sizing: border-box;
+            background-image: url("/src/imgs/sendEmail.png");
+            background-repeat: no-repeat;
+            background-position: center;
+            cursor: pointer;
+          }
+        }
+        &.five{
+          //background-color: #fff;
+        }
+      }
+    }
+    >.copyRight{
+      position: relative;
+      float: left;
+      width: 100%;
+      height: 49px;
+      text-align: center;
+      background-color: #fff;
+      line-height: 50px;
+      font-size: 16px;
+      border-top: 1px solid #ccc;
+    }
+  }
+}
+.userDetail{
+  width: 283px;
+  height: 142px;
+  background-color: #149BFF;
+  position: absolute;
+  z-index: 10;
+  border-radius: 14px;
+  box-shadow: 0px 10px 30px 0 rgba(0, 0, 0, 0.2);
+  top: 0px;
+  right: 163px;
+  opacity: 0;
+  transition: all 150ms;
+  pointer-events: none;
+  &.on{
+    top: 54px;
+    opacity: 1;
+    pointer-events: auto;
+  }
+  >.userAmount{
+    position: absolute;
+    width: auto;
+    height: 30px;
+    font-size: 14px;
+    line-height: 30px;
+    right: 22px;
+    top: 50px;
+    opacity: 0.8;
+  }
+
+  >.userEmail{
+    position: absolute;
+    width: auto;
+    height: 30px;
+    font-size: 14px;
+    line-height: 30px;
+    right: 22px;
+    top: 31px;
+    opacity: 0.8;
+  }
+
+  >.userName{
+    position: absolute;
+    width: auto;
+    height: 30px;
+    font-size: 18px;
+    line-height: 30px;
+    right: 22px;
+    top: 10px;
+  }
+
+  >.userImg{
+    background-image: url(/src/imgs/userPhotoLarg.png);
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    top: 17px;
+    left: 17px;
+    border: 1px solid #000;
+    border-radius: 65px;
+  }
+  >.btn{
+    line-height: 30px;
+    width: 98px;
+    height: 30px;
+    position: absolute;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid #000;
+    bottom: 10px;
+    left: 10px;
+    cursor: pointer;
+    &.logOut{
+      left: auto;
+      right:10px;
+    }
+    >.icon{
+      background-image: url("/src/imgs/lock.png");
+      height: 30px;
+      width: 30px;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+    >.text{
+      position: absolute;
+      width: calc(100% - 15px);
+      height: 30px;
+      line-height: 30px;
+      color: #000;
+      top: 0;
+      right: 0;
+      text-align: center;
+    }
+  }
+}

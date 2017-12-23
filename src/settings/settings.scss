@@ -1,0 +1,155 @@
+.home > .body {
+    >.leftBar {
+        background-color: #f5f5f5;
+        height: auto;
+        width: 80px;
+        position: relative;
+        border-right: 1px solid #e0e0e0;
+        float: left;
+        z-index: 2;
+        >.item{
+            position: relative;
+            float: left;
+            width: 80px;
+            height: 80px;
+            background-color: transparent;
+            transition: background-color 200ms;
+            border-bottom: 1px solid #e0e0e0;
+            &.sel{
+                &:first-child{
+                    >.box{
+                        margin-top: 0px;
+                        border-top: 0px solid #149BFF;
+                    }
+                }
+                >.box{
+                    background-color: #fff;
+                    border-right: 2px solid #149BFF;
+                    border-bottom: 2px solid #149BFF;
+                    border-top: 2px solid #149BFF;
+                    margin-top: -2px;
+                    margin-right: -2px;
+                    margin-bottom: -2px;
+                }
+                z-index: 8;
+                position: relative;
+                float: left;
+            }
+            &:last-child{
+                border-bottom: 0px solid #e0e0e0;
+            }
+            >.lable{
+                position: absolute;
+                width: auto;
+                //right: calc(-100% - 29px);
+                left:0;
+                background: #149bff;
+                padding-left: 14px;
+                padding-right: 14px;
+                font-size: 16px;
+                color: #fff;
+                height: 30px;
+                line-height: 30px;
+                transition: all 100ms;
+                transition-delay: 100ms;
+                opacity: 0;
+                pointer-events: none;
+                white-space: pre;
+            }
+            >.box{
+                transition: background 100ms;
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                z-index: 5;
+                top: 0;
+                background-color: #f5f5f5;
+                background-color: #fff;
+                >.img{
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    background-size: 80%;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                }
+            }
+            &:hover{
+                >.box{
+                    background-color: #fff;
+                }
+
+                >.lable{
+                    left:100%;
+                    opacity: 1;
+                    transition-delay: 0ms;
+                    transition: all 200ms;
+                }
+            }
+            &.myAccount{
+                >.box {
+                    >.img{
+                        background-image: url("/src/imgs/icons/myAccount.png");
+                    }
+                }
+            }
+            &.parentalControl{
+                >.box {
+                    > .img {
+                        background-image: url("/src/imgs/icons/parantalControl.png");
+                    }
+                }
+            }
+            &.cloudStorage{
+                >.box {
+                    > .img {
+                        background-image: url("/src/imgs/icons/cloudStorage.png");
+                    }
+                }
+            }
+            &.shopping{
+                >.box {
+                    > .img {
+                        background-image: url("/src/imgs/icons/shopping.png");
+                    }
+                }
+            }
+            &.statistics{
+                >.box {
+                    > .img {
+                        background-image: url("/src/imgs/icons/statistics.png");
+                    }
+                }
+            }
+            &.services{
+                >.box {
+                    > .img {
+                        background-image: url("/src/imgs/icons/services.png");
+                    }
+                }
+            }
+            &.advancedNetwork{
+                >.box {
+                    > .img {
+                        background-image: url("/src/imgs/icons/advancedNetwork.png");
+                    }
+                }
+            }
+            &.wifiSetting{
+                >.box {
+                    > .img {
+                        background-image: url("/src/imgs/icons/wifiSetting.png");
+                    }
+                }
+            }
+        }
+    }
+    >.body{
+        width: calc(100% - 81px);
+        position: absolute;
+        float: left;
+        padding: 0;
+        height: 100%;
+        right: 0;
+    }
+}

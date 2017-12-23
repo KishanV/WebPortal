@@ -1,0 +1,39 @@
+exports.load = function (args) {
+	$(args.elm).click(function(){
+		$(document.body).tags({
+			'.listMenu':{
+				$:{
+					each:function (elm) {
+						setTimeout(function () {
+							$(elm).addClass('on');
+						},10);
+						$(elm).downOut(function(){
+							$(elm).remove();
+						});
+					},
+					css:args.css
+				},
+				'.item.one':{
+					$:{
+						text:'Search'
+					}
+				},
+				'.item.two':{
+					$:{
+						text:'Accending'
+					}
+				},
+				'.item.three':{
+					$:{
+						text:'Desending'
+					}
+				},
+				'.item.four':{
+					$:{
+						text:'Active'
+					}
+				}
+			}
+		});
+	});
+}

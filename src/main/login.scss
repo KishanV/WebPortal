@@ -1,0 +1,101 @@
+.login{
+  background: #EFF3F6;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0 0 0 0 ;
+  color: #000;
+  >.box{
+    width: 406px;
+    height: 234px;
+    background: #2AA4FF;
+    position: absolute;
+    border-radius: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    box-shadow: 0 10px 40px 0px rgba(0,0,0,0.1);
+    >.logo{
+      background: url(/src/imgs/logo.png);
+      width: 111px;
+      height: 44px;
+      position: absolute;
+      top: -68px;
+      left: 50%;
+      transform: translateX(-50%);
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    >.button{
+      width: 100px;
+      height: 44px;
+      top: calc(100% + 24px);
+      position: absolute;
+      background: #2AA4FF;
+      background: #fff;
+      border: 2px solid #2AA4FF;
+      left: 50%;
+      transform: translateX(-50%);
+      border-radius: 30px;
+      box-sizing: border-box;
+      line-height: 40px;
+      text-indent: 14px;
+      cursor: pointer;
+      transition: all 200ms;
+      &:hover{
+        background: #2AA4FF;
+        color:#fff;
+        >.arrow{
+          background-color: #fff;
+          color: #000;
+        }
+      }
+      >.arrow{
+        transition: all 200ms;
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        right:0;
+        top: 0;
+        text-align: center;
+        line-height: 40px;
+        text-indent: 0px;
+        font-size: 18px;
+        border-radius: 30px;
+        background-color: #2AA4FF;
+        color: #fff;
+      }
+    }
+    >.holder{
+      width: 402px;
+      height: 230px;
+      background: #fff;
+      position: absolute;
+      left: 2px;
+      top: 2px;
+      border-radius: 9px;
+      >.lable{
+        width: 100%;
+        height: 30px;
+        line-height: 36px;
+        box-sizing: border-box;
+        text-indent: 55px;
+        &.user{
+          margin-top: 32px;
+        }
+      }
+      input.textbox{
+        width: calc(100% - 100px);
+        border: 1px solid #ccc;
+        height: 36px;
+        line-height: 36px;
+        margin-left: 50px;
+        margin-top: 5px;
+        background: #eee;
+        border-radius: 10px;
+        text-indent: 15px;
+        outline: none !important;
+      }
+    }
+  }
+}
