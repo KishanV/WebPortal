@@ -4,8 +4,8 @@ Web Pages written in javascript, JQuery, React JS, SCSS, Html5 and Node JS for i
 it is written as single page page application and component based architecture please read below details and click on links for more. 
 
 ## Architecture & View (Src Code). 
-◈ [Wifi JQuery](https://github.com/KishanV/WebPortal/blob/master/src/home/home.js) JQuery + QuickTags.</br>
-◈ [Wifi ReactJS](https://github.com/KishanV/WebPortal/blob/master/src/home/home.js) ReactJS + QuickTags.</br> 
+◈ [Wifi JQuery](https://github.com/KishanV/WebPortal/blob/master/src/settings/wifiSetting/wifiSetting.js) JQuery + QuickTags.</br>
+◈ [Wifi ReactJS](https://github.com/KishanV/WebPortal/blob/master/src/settings/wifiSettingReact/wifiSetting.jsx) ReactJS + QuickTags.</br> 
 ◈ [Home](https://github.com/KishanV/WebPortal/blob/master/src/home/home.js)</br>
 ◈ [SCSS](https://github.com/KishanV/WebPortal/blob/master/src/home/home.scss)</br>
 ◈ [Settings Modules DIR](https://github.com/KishanV/WebPortal/tree/master/src/settings)</br>
