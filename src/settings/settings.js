@@ -2,6 +2,7 @@ var frame = require('../mode/frame.js');
 var parentControls = require('./parentControls/parentControls.js');
 var cloudStorage = require('./cloudStorage/cloudStorage.js');
 var wifiSetting = require('./wifiSetting/wifiSetting.js');
+var wifiSettingReact = require('./wifiSettingReact/wifiSetting.jsx');
 
 exports.init = function(){
 	var frameObj = frame.load();
@@ -147,11 +148,14 @@ exports.init = function(){
 			'.item.advancedNetwork':{
 				$:{
 					each:function(elm){
-
+                        select($(elm));
+                        setTimeout(function(){
+                            wifiSetting.load(homeBody);
+                        },100);
 					},
 					event:{
 						click:function(){
-							clearBody(homeBody);
+                            wifiSetting.load(homeBody);
 							select($(this));
 						}
 					}
@@ -169,12 +173,12 @@ exports.init = function(){
 					each:function(elm){
 						select($(elm));
 						setTimeout(function(){
-							wifiSetting.load(homeBody);
+                            wifiSettingReact.load(homeBody);
 						},100);
 					},
 					event:{
 						click:function(){
-							wifiSetting.load(homeBody);
+                            wifiSettingReact.load(homeBody);
 							select($(this));
 						}
 					}
