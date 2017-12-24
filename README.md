@@ -3,30 +3,30 @@
 Web Pages written in javascript, JQuery, React JS, SCSS, Html5 and Node JS for implementation of rest api.
 it is written as single page page application and component based architecture please read below details and click on links for more. 
 
-### Architecture & View (Src Code).
+## Architecture & View (Src Code).
 ◈ [Login](https://github.com/KishanV/Android-Music-Player/blob/master/app/src/main/java/Views/ContentHome.java)</br>
 ◈ [Home](https://github.com/KishanV/WebPortal/blob/master/src/home/home.js)</br>
 ◈ [SCSS](https://github.com/KishanV/WebPortal/blob/master/src/home/home.scss)</br>
 ◈ [Settings Modules DIR](https://github.com/KishanV/WebPortal/tree/master/src/settings)</br>
 
-##### My Custom Frameworks & Highly reused functions. (Src Code).
+#### My Custom Frameworks & Highly reused functions. (Src Code).
 This javascript is fully written by me during my jobs. and this project is highly depend on these both files.</br>
 ◈ [JQuery based function](https://github.com/KishanV/WebPortal/blob/master/apis/api.js)</br>
 ◈ [QuickTags](https://github.com/KishanV/QuickTags)</br>
 
-##### Build &  Configuration (Src Code). 
+#### Build &  Configuration (Src Code). 
 ◈ [NPM & Package.json](https://github.com/KishanV/WebPortal/blob/master/package.json)</br>
 ◈ [JS Libraries DIR](https://github.com/KishanV/WebPortal/tree/master/plugins)</br>
 ◈ [Webpack](https://github.com/KishanV/WebPortal/blob/master/webpack.config.js) (css-loader, sass-loader,)</br>
  
-##### Webserver & REST (Src Code).
+#### Webserver & REST (Src Code).
 ◈ [Webserver & Webscocket server](https://github.com/KishanV/WebPortal/blob/master/web.server.js)</br>
 ◈ [REST with JSON](https://github.com/KishanV/WebPortal/blob/master/web/apis.js)</br>
 
-##### Custom live reload (Src Code).
+#### Custom live reload (Src Code).
 ◈ [Webserver & Watcher](https://github.com/KishanV/WebPortal/blob/master/plugins/watcher.js)</br>
 
-##### Screenshots & Looks (Images).
+#### Screenshots & Looks (Images).
 </br>
 <img src="https://raw.githubusercontent.com/KishanV/WebPortal/master/screenshot/home.png" class="html" style="max-width:100%;max-width:100%;border: 1px solid #92d1ff;box-shadow: 0 10px 30px 0px rgba(0,0,0,0.1);" />
 <img src="https://raw.githubusercontent.com/KishanV/WebPortal/master/screenshot/frame.png" style="max-width:100%;max-width:100%;border: 1px solid #92d1ff;box-shadow: 0 10px 30px 0px rgba(0,0,0,0.1);" />
