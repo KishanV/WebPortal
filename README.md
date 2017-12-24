@@ -1,4 +1,4 @@
-### Webportal (JQuery + ReactJS UI/UX Demo)
+## Webportal (JQuery + ReactJS UI/UX Demo)
 
 Web Pages written in javascript, JQuery, React JS, SCSS, Html5 and Node JS for implementation of rest api.
 it is written as single page page application and component based architecture please read below details and click on links for more. 
