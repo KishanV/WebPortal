@@ -4,7 +4,7 @@ Web Pages written in javascript, JQuery, React JS, SCSS, Html5 and Node JS for i
 it is written as single page page application and component based architecture please read below details and click on links for more. 
 
 ## Architecture & View (Src Code). 
-◈ [Wifi JQuery](https://github.com/KishanV/WebPortal/blob/master/src/settings/wifiSetting/wifiSetting.js)  + QuickTags. [See UI Screenshots](https://github.com/KishanV/WebPortal/blob/master/screenshot/wifi.png)</br>
+◈ [Wifi JQuery](https://github.com/KishanV/WebPortal/blob/master/src/settings/wifiSetting/wifiSetting.js)  + QuickTags. [See screenshots](https://github.com/KishanV/WebPortal/blob/master/screenshot/wifi.png)</br>
 ◈ [Wifi ReactJS](https://github.com/KishanV/WebPortal/blob/master/src/settings/wifiSettingReact/wifiSetting.jsx) & more</br> 
 ◈ [Home](https://github.com/KishanV/WebPortal/blob/master/src/home/home.js)</br>
 ◈ [SCSS](https://github.com/KishanV/WebPortal/blob/master/src/home/home.scss)</br>
@@ -31,6 +31,7 @@ This javascript is fully written by me during my jobs. and this project is highl
 </br>
 <img src="https://raw.githubusercontent.com/KishanV/WebPortal/master/screenshot/home.png" class="html" style="max-width:100%;max-width:100%;border: 1px solid #92d1ff;box-shadow: 0 10px 30px 0px rgba(0,0,0,0.1);" />
 <img src="https://raw.githubusercontent.com/KishanV/WebPortal/master/screenshot/frame.png" style="max-width:100%;max-width:100%;border: 1px solid #92d1ff;box-shadow: 0 10px 30px 0px rgba(0,0,0,0.1);" />
+<img src="https://raw.githubusercontent.com/KishanV/WebPortal/master/screenshot/wifi.png" style="max-width:100%;max-width:100%;border: 1px solid #92d1ff;box-shadow: 0 10px 30px 0px rgba(0,0,0,0.1);" />
 <img src="https://raw.githubusercontent.com/KishanV/WebPortal/master/screenshot/list.png" style="max-width:100%;max-width:100%;border: 1px solid #92d1ff;box-shadow: 0 10px 30px 0px rgba(0,0,0,0.1);" />
 <img src="https://raw.githubusercontent.com/KishanV/WebPortal/master/screenshot/menu.png"  style="max-width:100%;max-width:100%;border: 1px solid #92d1ff;box-shadow: 0 10px 30px 0px rgba(0,0,0,0.1);" />
 <img src="https://raw.githubusercontent.com/KishanV/WebPortal/master/screenshot/search.png"  style="max-width:100%;max-width:100%;border: 1px solid #92d1ff;box-shadow: 0 10px 30px 0px rgba(0,0,0,0.1);" />
