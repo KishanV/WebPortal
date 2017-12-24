@@ -5,7 +5,7 @@ it is written as single page page application and component based architecture p
 
 ## Architecture & Views (Src Code). 
 ◈ [Wifi JQuery](https://github.com/KishanV/WebPortal/blob/master/src/settings/wifiSetting/wifiSetting.js)  + QuickTags. [See screenshots](https://github.com/KishanV/WebPortal/blob/master/screenshot/wifi.png)</br>
-   Same above component writtent in RectJS.
+##### Same above component writtent in RectJS.</br>
 ◈ [Wifi ReactJS](https://github.com/KishanV/WebPortal/blob/master/src/settings/wifiSettingReact/wifiSetting.jsx) & more</br> 
 ◈ [Home](https://github.com/KishanV/WebPortal/blob/master/src/home/home.js)</br>
 ◈ [SCSS](https://github.com/KishanV/WebPortal/blob/master/src/home/home.scss)</br>
