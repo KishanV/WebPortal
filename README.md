@@ -3,8 +3,9 @@
 Web Pages written in javascript, JQuery, React JS, SCSS, Html5 and Node JS for implementation of rest api.
 it is written as single page page application and component based architecture please read below details and click on links for more. 
 
-## Architecture & View (Src Code).
-◈ [Login](https://github.com/KishanV/Android-Music-Player/blob/master/app/src/main/java/Views/ContentHome.java)</br>
+## Architecture & View (Src Code). 
+◈ [Wifi JQuery](https://github.com/KishanV/WebPortal/blob/master/src/home/home.js) JQuery + QuickTags.</br>
+◈ [Wifi ReactJS](https://github.com/KishanV/WebPortal/blob/master/src/home/home.js) ReactJS + QuickTags.</br> 
 ◈ [Home](https://github.com/KishanV/WebPortal/blob/master/src/home/home.js)</br>
 ◈ [SCSS](https://github.com/KishanV/WebPortal/blob/master/src/home/home.scss)</br>
 ◈ [Settings Modules DIR](https://github.com/KishanV/WebPortal/tree/master/src/settings)</br>
@@ -14,16 +15,16 @@ This javascript is fully written by me during my jobs. and this project is highl
 ◈ [JQuery based function](https://github.com/KishanV/WebPortal/blob/master/apis/api.js)</br>
 ◈ [QuickTags](https://github.com/KishanV/QuickTags)</br>
 
-#### Build &  Configuration (Src Code). 
+#### Build &  Configuration. 
 ◈ [NPM & Package.json](https://github.com/KishanV/WebPortal/blob/master/package.json)</br>
 ◈ [JS Libraries DIR](https://github.com/KishanV/WebPortal/tree/master/plugins)</br>
 ◈ [Webpack](https://github.com/KishanV/WebPortal/blob/master/webpack.config.js) (css-loader, sass-loader,)</br>
  
-#### Webserver & REST (Src Code).
+#### Webserver & REST.
 ◈ [Webserver & Webscocket server](https://github.com/KishanV/WebPortal/blob/master/web.server.js)</br>
 ◈ [REST with JSON](https://github.com/KishanV/WebPortal/blob/master/web/apis.js)</br>
 
-#### Custom live reload (Src Code).
+#### Custom live Reload.
 ◈ [Webserver & Watcher](https://github.com/KishanV/WebPortal/blob/master/plugins/watcher.js)</br>
 
 #### Screenshots & Looks (Images).
