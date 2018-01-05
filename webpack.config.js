@@ -73,12 +73,10 @@ module.exports = [
         plugins: []
     },*/
     {
-        entry: {
-            app: srcJS
-        },
+        entry:  srcJS,
         devtool: 'source-map',
         output: {
-            filename: 'dist/app.src.js'
+            filename: 'dist/app.dist.js'
         },
         resolveLoader: {
             moduleExtensions: ['-loader']
