@@ -1,0 +1,29 @@
+.some{
+  color:#000;
+  background-color: #ccc;
+  position: relative;
+  float: left;
+  width: auto;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  min-width: 100px;
+  text-align: center;
+  transition: all 200ms;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  &:hover{
+    background-color: #fff;
+  }
+}
+.Parent{
+  color:#000;
+  background-color: #eee;
+  position: relative;
+  float: left;
+  width: auto;
+  padding: 20px;
+  margin: 5px;
+  border-radius: 10px;
+}
