@@ -3,6 +3,10 @@
 Web Pages written in javascript, JQuery, React JS, SCSS, Html5 and Node JS for implementation of rest api.
 it is written as single page page application and component based architecture please read below details and click on links for more. 
 
+<a href="https://youtu.be/ZiW8rsCO08w" target="_blank"><img src="https://raw.githubusercontent.com/KishanV/WebPortal/master/screenshot/youtubeThumb.png" 
+width="100%" alt='' border="10" /></a>
+
+
 ## Architecture & Views (Src Code). 
 ◈ [Wifi Component in JQuery](https://github.com/KishanV/WebPortal/blob/master/src/settings/wifiSetting/wifiSetting.js)  + QuickTags. [See screenshots](https://github.com/KishanV/WebPortal/blob/master/screenshot/wifi.png)</br>
 ◈ [Wifi Component in ReactJS](https://github.com/KishanV/WebPortal/blob/master/src/settings/wifiSettingReact/wifiSetting.jsx) & more</br> 
